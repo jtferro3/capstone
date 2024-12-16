@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<script>
+    window.onload = function() {
+        alert("PollMania is an online polling application.\nYour opinion counts.");
+    };
+</script>
+<div class="card text-center">
+    <div class="card-body">
+        <h1>Welcome To PollMania</h1>
+        <p></p>
+        <a class="btn btn-dark" href="{% url 'polls:index' %}">
+            View Available Polls</a>
+    </div>
+</div>
+{% endblock %}
