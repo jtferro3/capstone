@@ -42,7 +42,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'pollster.urls'
+ROOT_URLCONF = 'pollmania.urls'
 
 TEMPLATES = [
     {
@@ -60,7 +60,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pollster.wsgi.application'
+WSGI_APPLICATION = 'pollmania.wsgi.application'
 
 
 # Database

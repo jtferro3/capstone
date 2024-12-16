@@ -22,7 +22,7 @@ This project is a Django-based web application that allows users to participate 
 
 ### File Breakdown
 
-- **`pollster/`** (Project settings and configurations):
+- **`pollmania/`** (Project settings and configurations):
   - `settings.py`: Configuration for the Django project.
   - `urls.py`: URL routing for the project.
   - `wsgi.py` and `asgi.py`: Deployment configurations.
