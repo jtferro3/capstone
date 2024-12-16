@@ -45,9 +45,6 @@ This project is a Django-based web application that allows users to participate 
 - **Database**:
   - `db.sqlite3`: SQLite database file storing application data.
 
-- **Pipfile & Pipfile.lock**:
-  - Manage project dependencies for reproducibility.
-
 ### How to Run the Application
 
 1. **Install Dependencies**:
